@@ -20,7 +20,7 @@ class Artist
       artist.name
     else
       new_artist = Artist.new(name)
-      all << new_artist
+      new_artist.save
     end
 
   end
