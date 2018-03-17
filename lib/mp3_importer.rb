@@ -12,10 +12,11 @@ class MP3Importer
 
   def files
     @files = Dir.glob("#{path}/*.mp3")
+    binding.pry
   end
 
 
 end
 
 new_import = MP3Importer.new('../db/mp3s')
-puts new_import.files
+new_import.files
