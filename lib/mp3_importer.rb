@@ -17,5 +17,5 @@ class MP3Importer
 
 end
 
-new_import = MP3Importer.new(../db/mp3s)
+new_import = MP3Importer.new('../db/mp3s')
 puts new_import.files
