@@ -16,7 +16,8 @@ class MP3Importer
   end
 
 
+
 end
 
-new_import = MP3Importer.new('./db/mp3s')
-new_import.files
+#new_import = MP3Importer.new('./db/mp3s')
+#new_import.files
